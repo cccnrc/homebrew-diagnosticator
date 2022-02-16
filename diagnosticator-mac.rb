@@ -8,10 +8,7 @@ class DiagnosticatorMac < Formula
   depends_on "docker"
   depends_on "docker-compose"
   depends_on "wget"
-  depends_on "curl"
   depends_on "jq"
-  depends_on "printf"
-  depends_on "cmd"
 
   def install
     bin.install diagnosticator
