@@ -12,6 +12,7 @@ class DiagnosticatorMac < Formula
 
   def install
     bin.install diagnosticator
+    bin.install diagnosticator-mac.sh
     bin.install Dir["files"]
     prefix.install "README.md"
   end
