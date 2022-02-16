@@ -11,8 +11,8 @@ class Diagnosticator < Formula
   depends_on "jq"
 
   def install
-    bin.install diagnosticator
-    bin.install diagnosticator-mac.sh
+    bin.install "diagnosticator"
+    bin.install "diagnosticator-mac.sh"
     bin.install Dir["files"]
     prefix.install "README.md"
   end
