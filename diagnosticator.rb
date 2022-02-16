@@ -1,4 +1,4 @@
-class DiagnosticatorMac < Formula
+class Diagnosticator < Formula
   desc "Diagnosticator Mac OS package"
   homepage "https://diagnosticator.com"
   url "https://github.com/cccnrc/diagnosticator-mac/archive/refs/tags/v0.1.0.tar.gz"
