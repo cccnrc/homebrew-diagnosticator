@@ -1,8 +1,8 @@
 class Diagnosticator < Formula
   desc "Diagnosticator Mac OS homebrew package"
   homepage "https://diagnosticator.com"
-  url "https://github.com/cccnrc/diagnosticator-mac/archive/refs/tags/v0.1.5.tar.gz"
-  sha256 "62ce220ed6c5b43a94f1d6eae6a970e19d558334ab180bdae642cd880c4244f6"
+  url "https://github.com/cccnrc/diagnosticator-mac/archive/refs/tags/v0.1.7.tar.gz"
+  sha256 "293a6813b65bfeec7657b9a7cc833193457043df5cb41ab7eb2eab3d3a220ca6"
   license "MIT"
 
   depends_on "docker"
